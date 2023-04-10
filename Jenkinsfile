@@ -36,7 +36,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push vasavi19/g1-allergy-service'
+				sh 'docker push vasavi19/vasavi-spring-app'
 			}
 		}
 	}

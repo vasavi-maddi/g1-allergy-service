@@ -5,6 +5,7 @@ pipeline{
 			steps{
 				
 				git branch: "main", url: 'https://github.com/vasavi-maddi/g1-allergy-service.git'
+				sh echo "hello"
 			
 			}
 			
